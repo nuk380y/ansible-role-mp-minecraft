@@ -1,0 +1,9 @@
+---
+# defaults file for ansible-minecraft
+
+mp-minecraft_max_ram: 1024
+mp-minecraft_min_ram: 1024
+mp-minecraft_jar_filename: "minecraft_server.jar"
+mp-minecraft_server_dir: "/opt/minecraft"
+mp-minecraft_jar_full_path: "{{ mp-minecraft_server_dir }}/{{ mp-minecraft_jar_filename }}"
+...

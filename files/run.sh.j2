@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+java -Xmx{{ mp-minecraft_max_ram }}M -Xms{{ mp-minecraft_min_ram }}M \
+-jar {{ mp-minecraft_jar_full_path }} \
+nogui
